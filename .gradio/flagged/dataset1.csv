@@ -1,0 +1,4 @@
+Gender,Partner,Dependents,Phone Service,Multiple Lines,Internet Service,Online Security,Online Backup,Device Protection,Tech Support,Streaming TV,Streaming Movies,Contract,Paperless Billing,Payment Method,Tenure,Monthly Charges,Total Charges,output,timestamp
+Male,Yes,Yes,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,0,Likely to churn,2026-02-23 10:11:27.740088
+Male,Yes,Yes,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,0,Likely to churn,2026-02-23 10:14:36.077555
+Male,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),24,100.5,2412,Not likely to churn,2026-02-23 10:33:04.593246

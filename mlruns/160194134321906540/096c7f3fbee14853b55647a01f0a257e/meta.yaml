@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/python/churn/mlruns/160194134321906540/096c7f3fbee14853b55647a01f0a257e/artifacts
+end_time: 1771817820771
+entry_point_name: ''
+experiment_id: '160194134321906540'
+lifecycle_stage: active
+run_id: 096c7f3fbee14853b55647a01f0a257e
+run_name: nimble-penguin-434
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771817805299
+status: 3
+tags: []
+user_id: Abeera Imtiaz

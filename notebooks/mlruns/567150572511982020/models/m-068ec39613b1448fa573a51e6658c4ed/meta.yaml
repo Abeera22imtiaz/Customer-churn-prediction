@@ -1,0 +1,10 @@
+artifact_location: file:e:/python/churn/notebooks/mlruns/567150572511982020/models/m-068ec39613b1448fa573a51e6658c4ed/artifacts
+creation_timestamp: 1771795717807
+experiment_id: '567150572511982020'
+last_updated_timestamp: 1771795732483
+model_id: m-068ec39613b1448fa573a51e6658c4ed
+model_type: null
+name: model
+source_run_id: 4e9459b7b1224fcc9c72701b1d2f22a3
+status: 2
+status_message: null

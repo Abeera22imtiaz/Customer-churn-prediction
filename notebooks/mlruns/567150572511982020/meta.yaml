@@ -1,0 +1,6 @@
+artifact_location: file:e:/python/churn/notebooks/mlruns/567150572511982020
+creation_time: 1771795716404
+experiment_id: '567150572511982020'
+last_update_time: 1771795716404
+lifecycle_stage: active
+name: Telco Churn - XGBoost
