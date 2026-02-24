@@ -8,10 +8,12 @@ WORKDIR /app
 COPY requirements.txt .
 
 # 4. Install dependencies
-RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt \
-    && apt-get update && apt-get install -y --no-install-recommends \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends build-essential git && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir --upgrade pip
+RUN pip install --no-cache-dir -r requirements.txt
 
 # 5. Copy the entire project
 COPY . .
