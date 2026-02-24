@@ -1,0 +1,16 @@
+# Git & Meta
+.git
+.github
+__pycache__
+*.py[cod]
+*.pyo
+
+# Data & Notebooks (Not needed for serving)
+data/
+notebooks/
+.gradio/
+
+# MLflow experiments
+mlruns/
+
+#Data files are usually large, so including them would unnecessarily increase the Docker image size. Notebooks are mainly for development and are not required in production. Therefore, only the necessary source code is included in the Docker container to keep it lightweight and efficient

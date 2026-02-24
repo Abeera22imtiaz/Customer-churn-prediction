@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Big artifacts we don't want in git
+data/raw/
+data/processed/
+
+# BUT keep our bundled serving model in the repo
+!src/serving/model/
+!src/serving/model/**
+
+#The .gitignore file keeps the repository clean and lightweight
+#by preventing unnecessary files—such as virtual environments,
+#cache files, large data folders, and experiment artifacts—from being tracked in Git. 
+#However, it explicitly allows the serving model folder to be included, ensuring that 
+#the required production model is still available in the repository.'''
